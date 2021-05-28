@@ -450,6 +450,11 @@ a {
     display:table;
     clear:both
 }
+ .container:after,.container:before,.panel:after,.panel:after,.panel:before,.panel:before,.row:after,.row:before,.row-padding:after,.row-padding:before, .cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after {
+    content:"";
+    display:table;
+    clear:both
+}
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter, .twothird, .third, .threequarter, .quarter, .half, .col {
     float:left;
     width:100%
@@ -637,6 +642,9 @@ a {
      .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .btn,.w3-dropdown-click.w3-mobile .w3-button {
         width:100%
     }
+    .dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button {
+        width:100%
+    }
 }
  @media (max-width:768px){
     .w3-modal-content, .modal-content {
@@ -798,6 +806,9 @@ a {
     border-radius:32px
 }
  .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{
+    padding:0 8px
+}
+ .row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{
     padding:0 8px
 }
  .w3-container, .w3-panel, .container, .panel {
