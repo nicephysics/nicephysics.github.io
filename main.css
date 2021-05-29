@@ -1029,7 +1029,7 @@ a {
 .w3-large, .large, .size-18 {
     font-size:18px!important
 }
- .w3-xlarge, .huge, .size-24 {
+.w3-xlarge, .huge, .size-24 {
     font-size:24px!important
 }
 .w3-xxlarge, .gigantic, .size-36 {
@@ -1053,31 +1053,31 @@ a {
 .toojumbo, .size-200 {
     font-size:200px!important
 }
-.w3-left-align, .text-left {
+.w3-left-align, .text-left, .align-left {
     text-align:left!important
 }
-.w3-right-align, .text-right {
+.w3-right-align, .text-right, .align-right {
     text-align:right!important
 }
-.w3-justify, .text-justify, .justify {
+.w3-justify, .text-justify, .justify, .align-justify {
     text-align:justify!important
 }
-.w3-center, .text-center, .center {
+.w3-center, .text-center, .center, .align-center {
     text-align:center!important
 }
-.w3-border-0, .border-0 {
+.w3-border-0, .border-0, .no-border {
     border:0!important
 }
 .w3-border, .border {
     border:1px solid #ccc!important
 }
- .w3-border-top, .border-top {
+.w3-border-top, .border-top {
     border-top:1px solid #ccc!important
 }
 .w3-border-bottom, .border-bottom {
     border-bottom:1px solid #ccc!important
 }
- .w3-border-left, .border-left {
+.w3-border-left, .border-left {
     border-left:1px solid #ccc!important
 }
 .w3-border-right, .border-right {
